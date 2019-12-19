@@ -7,3 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+
+https://www.youtube.com/watch?v=ayl_W3Uj2IU&list=PLYVcyg3AF-zvDDXBLDyn9UJSgAYMWpUS3&index=10s
