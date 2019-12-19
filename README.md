@@ -8,5 +8,9 @@
 </p>
 
 
+<video width="320" height="240" controls>
+  <source src="https://www.youtube.com/watch?v=ayl_W3Uj2IU&list=PLYVcyg3AF-zvDDXBLDyn9UJSgAYMWpUS3&index=10s" type="video/mp4">
 
-https://www.youtube.com/watch?v=ayl_W3Uj2IU&list=PLYVcyg3AF-zvDDXBLDyn9UJSgAYMWpUS3&index=10s
+  Your browser does not support the video tag.
+</video>
+
