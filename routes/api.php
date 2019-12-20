@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
@@ -30,4 +31,6 @@ Route::put('country/{id}','Country\CountryController@countryUpdate');
 Route::delete('country/{id}','Country\CountryController@countryDelete');
 
 */
-Route::apiResource('country', 'Country\Country');
+Route::group(['middleware' => 'auth:api'], function(){
+    Route::apiResource('country', 'Country\Country');
+});

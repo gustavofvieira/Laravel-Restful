@@ -16,11 +16,13 @@ class AuthBasic
      */
     public function handle($request, Closure $next)
     {
+        /*
         if(Auth::onceBasic()){
             return response()->json(['message' => 'Autenticação falhou'],401);
         }else{
             return $next($request);
-        }
+        }*/
+        return Auth::onceBasic() ?: $next($request);
         
     }
 }
