@@ -37,3 +37,7 @@ Route::group(['middleware' => 'auth:api'], function(){
 });
 */
 Route::apiResource('country', 'Country\Country');
+//Route::get('file', 'FileController@countryList');
+Route::get('file', function(){
+    return "Oi";
+});
